@@ -1,10 +1,10 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Hilltop Events Homepage*
 
-Submitted by: **Your Name Here**
+Submitted by: **Amir Farrukh**
 
-This web app: **insert description**
+This web app: **A simple cards layout displaying yearly events for a community park, created using the Node.js + React + Vite stack.**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -34,10 +34,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif (**Win64**)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -47,9 +47,11 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+The most difficult part of developing this app was creating a reponsive grid layout of cards, and cropping the images of various sizes to fit in the cards while maintaining a uniform look. Resolved using object-fit and max-width locking in stylesheet.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2026 Amir Farrukh
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
